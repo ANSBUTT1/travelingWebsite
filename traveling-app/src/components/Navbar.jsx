@@ -12,22 +12,26 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <nav>
-                    <Link>
+                    <Link to="/" smooth={true} duration={500} spy={true} className="cursor-pointer">
                         Home
                     </Link>
-                    <Link>
+                    <Link to="/" smooth={true} duration={500} spy={true} className="cursor-pointer">
                         Features
                     </Link>
-                    <Link>
+                    <Link to="/" smooth={true} duration={500} spy={true} className="cursor-pointer">
                         Desination
                     </Link>
-                    <Link>
+                    <Link to="/" smooth={true} duration={500} spy={true} className="cursor-pointer">
                         About
                     </Link>
-                    <Link>
+                    <Link to="/" smooth={true} duration={500} spy={true} className="cursor-pointer">
                         Contact
                     </Link>
                 </nav>
+                <div>
+                    <h1>Register</h1>
+                    <button>Login</button>
+                </div>
             </div>
         </div>
     )
