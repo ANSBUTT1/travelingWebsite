@@ -29,7 +29,7 @@ const Navbar = () => {
                     <Link to="features" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-brightColor transition-all">
                         Features
                     </Link>
-                    <Link to="desination" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-brightColor transition-all">
+                    <Link to="destination" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-brightColor transition-all">
                         Desination
                     </Link>
                     <Link to="about" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-brightColor transition-all">
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <Link to="features" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-brightColor transition-all">
                     Features
                 </Link>
-                <Link to="desination" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-brightColor transition-all">
+                <Link to="destination" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-brightColor transition-all">
                     Desination
                 </Link>
                 <Link to="about" smooth={true} duration={500} spy={true} className="cursor-pointer hover:text-brightColor transition-all">
